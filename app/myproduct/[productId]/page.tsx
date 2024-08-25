@@ -19,7 +19,7 @@ const ProductPage = ({ params }: { params: { productId: string } }) => {
   useEffect(() => {
     const fetchHandler = async () => {
       try {
-        const response = await fetch('http://localhost:3000/myapiii');
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/myapiii`);
         const products: productType1[] = await response.json();
         console.log('Fetched Products:', products);
         const productid: number = parseInt(params.productId, 10);

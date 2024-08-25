@@ -6,9 +6,19 @@ import Footer from "../component/footer/footer";
 
 const myProduct = async () => {
   async function fetchmydata() {
-    const res = await fetch("http://localhost:3000/myapiii");
-    return res.json();
+    try {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/myapiii`);
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`);
+      }
+      return res.json();
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      return [];
+    }
   }
+  
+
   const myproduct = await fetchmydata();
   console.log(myproduct);
 

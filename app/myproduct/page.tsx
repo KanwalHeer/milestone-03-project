@@ -62,7 +62,7 @@ const myProduct = async () => {
   
   // function for fetching data from api
  async function fetchmydata() {
-    const res = await fetch("http://localhost:3000/myapiii")
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/myapiii`)
     return res.json()}
    
     const myproduct = await fetchmydata()
