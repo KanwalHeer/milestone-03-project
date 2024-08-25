@@ -16,14 +16,14 @@ export default function ContactImageCard() {
                 <div className="flex items-center mb-3">
                   <FaHome className="mr-2 text-xl hover:text-red-500 transition-colors" />
                   <div>
-                    <h5 className="font-bold text-orange-950">NH9 Road, ABC Building</h5>
-                    <p className='text-[#775c50] text-sm'>Ghaziabad, Uttar Pradesh, IN</p>
+                    <h5 className="font-bold text-orange-950">ABC4 Road, ABC Building</h5>
+                    <p className='text-[#775c50] text-sm'>Ghulshan e maymar , karach , </p>
                   </div>
                 </div>
                 <div className="flex items-center mb-3">
                   <FaPhone className="mr-2 text-xl hover:text-red-500 transition-colors" />
                   <div>
-                    <h5 className="font-bold text-orange-950">+91 7445546525</h5>
+                    <h5 className="font-bold text-orange-950">+92-123456789</h5>
                     <p className='text-[#775c50] text-sm'>Monday To Saturday, 9AM To 6PM</p>
                   </div>
                 </div>

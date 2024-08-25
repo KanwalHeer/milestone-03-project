@@ -39,7 +39,7 @@ export default function Header() {
 
         {/* Modal for Mobile Screens */}
         {isOpen && (
-          <div className="fixed inset-16 rounded-3xl  border-4 border-red-950 bg-[#f0ebe9] bg-opacity-85 z-50 p-4 flex flex-col space-y-4 md:hidden">
+          <div className="fixed inset-0 rounded-3xl  border-4 border-red-950 bg-[#f0ebe9] bg-opacity-85 z-50 p-4 flex flex-col space-y-4 md:hidden">
             <button onClick={toggleMenu} className="text-red-200 text-3xl self-end bg-red-950 p-2 rounded-full">
               <FaTimes />
             </button>
