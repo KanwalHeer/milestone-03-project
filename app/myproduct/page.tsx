@@ -18,35 +18,35 @@ const testimonials = [
     testimonial: "I had a wonderful experience with this service. The team was fantastic and very supportive throughout the process."
   },
   {
-    imageSrc: "/fp2.png",
+    imageSrc: "/fp3.png",
     altText: "User Profile 2",
     name: "John Smith",
     role: "Satisfied Client",
     testimonial: "Excellent service! The quality of the products exceeded my expectations and the customer support was top-notch."
   },
   {
-    imageSrc: "/fp2.png",
+    imageSrc: "/fp4.png",
     altText: "User Profile 3",
     name: "Alice Johnson",
     role: "Loyal User",
     testimonial: "The attention to detail and dedication to customer satisfaction made my experience truly remarkable."
   },
   {
-    imageSrc: "/fp2.png",
+    imageSrc: "/fp6.png",
     altText: "User Profile 4",
     name: "Robert Brown",
     role: "Content Customer",
     testimonial: "The entire process was smooth and enjoyable. I highly recommend their services to anyone in need."
   },
   {
-    imageSrc: "/fp2.png",
+    imageSrc: "/fp7.png",
     altText: "User Profile 5",
     name: "Emily Davis",
     role: "First-time Buyer",
     testimonial: "The flowers were fresh and beautiful. The service was prompt and the staff was very helpful."
   },
   {
-    imageSrc: "/fp2.png",
+    imageSrc: "/fp3.png",
     altText: "User Profile 6",
     name: "Michael Wilson",
     role: "Regular Client",
