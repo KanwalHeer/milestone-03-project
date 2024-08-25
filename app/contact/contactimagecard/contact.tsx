@@ -17,7 +17,7 @@ export default function ContactImageCard() {
                   <FaHome className="mr-2 text-xl hover:text-red-500 transition-colors" />
                   <div>
                     <h5 className="font-bold text-orange-950">ABC4 Road, ABC Building</h5>
-                    <p className='text-[#775c50] text-sm'>Ghulshan e maymar , karach , </p>
+                    <p className='text-[#775c50] text-sm'>Ghulshan e maymar , karachi , </p>
                   </div>
                 </div>
                 <div className="flex items-center mb-3">

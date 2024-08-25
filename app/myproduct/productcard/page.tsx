@@ -1,15 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import productType1 from "@/app/Type/product";
-
-interface CardProps {
-  id:string,
-    name:string,
-     description:string,
-      price?:string, 
-      image:string// Image is optional
-}
-
 const Card1 = ({ name, description, id,image,price }:any) => {
   // console.log(name ,description ,postid ,image);
   
