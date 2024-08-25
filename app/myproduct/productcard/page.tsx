@@ -10,7 +10,7 @@ interface CardProps {
       image:string// Image is optional
 }
 
-const Card1 = ({ name, description, id,image,price }:CardProps) => {
+const Card1 = ({ name, description, id,image,price }:any) => {
   // console.log(name ,description ,postid ,image);
   
   return (
