@@ -11,7 +11,7 @@ import Footer from "../component/footer/footer";
 
 const testimonials = [
   {
-    imageSrc: "/fp1.png",
+    imageSrc: "/fp2.png",
     altText: "User Profile 1",
     name: "Jane Doe",
     role: "Happy Customer",
@@ -25,28 +25,28 @@ const testimonials = [
     testimonial: "Excellent service! The quality of the products exceeded my expectations and the customer support was top-notch."
   },
   {
-    imageSrc: "/fp3.png",
+    imageSrc: "/fp2.png",
     altText: "User Profile 3",
     name: "Alice Johnson",
     role: "Loyal User",
     testimonial: "The attention to detail and dedication to customer satisfaction made my experience truly remarkable."
   },
   {
-    imageSrc: "/fp4.png",
+    imageSrc: "/fp2.png",
     altText: "User Profile 4",
     name: "Robert Brown",
     role: "Content Customer",
     testimonial: "The entire process was smooth and enjoyable. I highly recommend their services to anyone in need."
   },
   {
-    imageSrc: "/fp6.png",
+    imageSrc: "/fp2.png",
     altText: "User Profile 5",
     name: "Emily Davis",
     role: "First-time Buyer",
     testimonial: "The flowers were fresh and beautiful. The service was prompt and the staff was very helpful."
   },
   {
-    imageSrc: "/fp7.png",
+    imageSrc: "/fp2.png",
     altText: "User Profile 6",
     name: "Michael Wilson",
     role: "Regular Client",

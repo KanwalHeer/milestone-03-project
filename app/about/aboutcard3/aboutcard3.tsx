@@ -7,7 +7,7 @@ export default function AboutCard3() {
       {/* Image Section */}
       <div className="md:w-1/2">
         <Image
-          src="/f6.png"
+          src="/ff5.png"
           alt="Our Journey"
           width={700}
           height={300}
