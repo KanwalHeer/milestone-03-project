@@ -13,10 +13,10 @@ export default function Footer() {
       {/* Navigation Links */}
       <div className="text-center mb-4">
         <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6">
-          <li><Link href="myproduct" className="hover:underline hover:text-red-200">Home</Link></li>
-          <li><Link href="shop" className="hover:underline hover:text-red-200">Shop</Link></li>
-          <li><Link href="about" className="hover:underline hover:text-red-200">About</Link></li>
-          <li><Link href="contact" className="hover:underline hover:text-red-200">Contact</Link></li>
+          <li><Link href="/myproduct" className="hover:underline hover:text-red-200">Home</Link></li>
+          <li><Link href="/shop" className="hover:underline hover:text-red-200">Shop</Link></li>
+          <li><Link href="/about" className="hover:underline hover:text-red-200">About</Link></li>
+          <li><Link href="/contact" className="hover:underline hover:text-red-200">Contact</Link></li>
         </ul>
       </div>
 
