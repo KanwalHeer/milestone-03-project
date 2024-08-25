@@ -1,27 +1,11 @@
 import Image from "next/image";
 import Header from "../component/header/header";
 import Card from "../component/card/card";
-import Card1 from "../myproduct/productcard/page"
+import Card1 from "../myproduct/productcard/page";
 import Footer from "../component/footer/footer";
+import myproducts from "../mydb/mydata"; // Import myproducts directly
 
-const myProduct = async () => {
-  async function fetchmydata() {
-    try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/myapiii`);
-      if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`);
-      }
-      return res.json();
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      return [];
-    }
-  }
-  
-
-  const myproduct = await fetchmydata();
-  console.log(myproduct);
-
+const MyProduct = () => { // Rename component to match convention (PascalCase)
   return (
     <div>
       <div className="relative overflow-hidden md:h-[70vh] flex flex-col items-center justify-center text-center">
@@ -95,7 +79,7 @@ const myProduct = async () => {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {myproduct.map((p: any) => (
+          {myproducts.map((p: any) => (
             <Card1
               key={p.id}
               name={p.name}
@@ -115,4 +99,4 @@ const myProduct = async () => {
   );
 };
 
-export default myProduct;
+export default MyProduct;
